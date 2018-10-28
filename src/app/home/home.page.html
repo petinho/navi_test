@@ -1,0 +1,13 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Home</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-row>
+  <a [routerLink]="['../edit']">Edit with routerlink</a> 
+  <ion-button href="tabs/(home:edit)">Edit with link</ion-button>
+  <ion-button (click)="gotoEdit()">Edit with navigateByUrl</ion-button>
+  <ion-button (click)="gotoEditNavigate()">Edit with navigate</ion-button>
+</ion-row>
+

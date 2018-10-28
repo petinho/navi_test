@@ -1,0 +1,7 @@
+{
+  "name": "naviApp",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}
